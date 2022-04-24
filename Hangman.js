@@ -121,6 +121,7 @@ function endGame() {
         disableKeyBoard();
         setTimeout(showMenu, 800);
         function showMenu() {
+            document.getElementById('wordToBeGuessed').innerHTML = word;
             document.getElementById('gameStatus').style.display = "block";
             word = undefined;
             placeholder = undefined;
