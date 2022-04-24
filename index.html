@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <div id="word">
+            <span id="wordToBeGuessed"></span>
+        </div>
+
+
+        <div id="gallowsContainer">
+            <img id="gallows" src="/Images/Gallows.png" alt="Gallows Image">
+        </div>
+
+        
+            <img class="cowboy" id="cowboy1" src="/Images/Cowboy/Cowboy-1.png" alt="Cowboy">
+            <img class="cowboy" id="cowboy2" src="/Images/Cowboy/Cowboy-2.png" alt="Cowboy">
+            <img class="cowboy" id="cowboy3" src="/Images/Cowboy/Cowboy-3.png" alt="Cowboy">
+            <img class="cowboy" id="cowboy4" src="/Images/Cowboy/Cowboy-4.png" alt="Cowboy">
+            <img class="cowboy" id="cowboy5" src="/Images/Cowboy/Cowboy-5.png" alt="Cowboy">
+            <img class="cowboy" id="cowboy6" src="/Images/Cowboy/Cowboy-6.png" alt="Cowboy">
+        
+    
+
+
+        <div id="keyboardContainer">
+            <div id="gameKeyboard">
+                <button class="gameButton" value="a">A</button>
+                <button class="gameButton" value="b">B</button>
+                <button class="gameButton" value="c">C</button>
+                <button class="gameButton" value="d">D</button>
+                <button class="gameButton" value="e">E</button>
+                <button class="gameButton" value="f">F</button>
+                <button class="gameButton" value="g">G</button>
+                <button class="gameButton" value="h">H</button>
+                <button class="gameButton" value="i">I</button>
+                <button class="gameButton" value="j">J</button>
+                <button class="gameButton" value="k">K</button>
+                <button class="gameButton" value="l">L</button>
+                <button class="gameButton" value="m">M</button>
+                <button class="gameButton" value="n">N</button>
+                <button class="gameButton" value="o">O</button>
+                <button class="gameButton" value="p">P</button>
+                <button class="gameButton" value="q">Q</button>
+                <button class="gameButton" value="r">R</button>
+                <button class="gameButton" value="s">S</button>
+                <button class="gameButton" value="t">T</button>
+                <button class="gameButton" value="u">U</button>
+                <button class="gameButton" value="v">V</button>
+                <button class="gameButton" value="w">W</button>
+                <button class="gameButton" value="x">X</button>
+                <button class="gameButton" value="y">Y</button>
+                <button class="gameButton" value="z">Z</button>
+                </div>
+        </div>
+
+        <div id="gameStatus">
+            <span id="message"></span>
+            <button id="playAgainButton" onclick="runGame(); removeMenu();">Play Again</button>
+        </div>
+
+
+    </main>
+    <script src="Hangman.js"></script>
+</body>
+</html>
