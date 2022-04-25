@@ -14,6 +14,57 @@ main {
     top: 30px;
 }
 
+#startMenu {
+    /* display: none; */
+    height: 635px;
+    width: 1000px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #00000073;
+    margin: auto;
+}
+
+#startTitle {
+    position: absolute;
+    left: 319px;
+    top: -1px;
+    font-family: woodFont;
+    font-size: 100px;
+    color: #ffffe1f0;
+    font-weight: 100;
+}
+
+#startButton {
+    position: absolute;
+    top: 290px;
+    left: 435px;
+    width: 131px;
+    height: 58px;
+    border-radius: 15px;
+    border: none;
+    background-color: #49fc01;
+    font-family: menuFont;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+#startButton:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transform: scale(1.1);
+
+}
+
+#startButton:active {
+    transform: scale(0.9);
+
+}
+
+
 @font-face {
     font-family: ropeFont;
     src: url(./Fonts/Alpharope-MVVr.ttf);
