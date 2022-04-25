@@ -109,10 +109,11 @@ main {
 
 
 #keyboardContainer {
+  display: none;
   margin: auto;
   position: absolute;
   bottom: 28px;
-  left: 183px;
+  left: 200px;
 }
 
 #gameKeyboard {
