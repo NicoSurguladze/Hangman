@@ -81,6 +81,7 @@ main {
 }
 
 #word {
+    display: none;
     text-align: center;
     font-size: 95px;
     margin-bottom: 50px;
@@ -89,6 +90,7 @@ main {
 }
 
 #gallowsContainer {
+    display: none;
     position: relative;
 }
 
