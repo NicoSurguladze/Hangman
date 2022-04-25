@@ -1,5 +1,12 @@
 runGame();
 
+function startButton() {
+    document.getElementById('startMenu').style.display = "none";
+    document.getElementById('gallowsContainer').style.display = "block";
+    document.getElementById('word').style.display = "block";
+    document.getElementById('keyboardContainer').style.display = "block";
+}
+
 function removeMenu() {
     document.getElementById('gameStatus').style.display = "none";
     const keyboard = document.getElementsByClassName("gameButton");
